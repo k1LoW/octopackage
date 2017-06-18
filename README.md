@@ -8,6 +8,12 @@
 $ composer require k1low/octopackage --dev
 ```
 
+or
+
+```console
+$ composer global require k1low/octopackage
+```
+
 ## Usage
 
 ```console
@@ -17,7 +23,7 @@ $ composer octopackage
 
 ### `--major` `--minor` `--patch`
 
-Version number when package. default is `--patch`
+Bump version number when package. default option is `--patch`.
 
 
 
