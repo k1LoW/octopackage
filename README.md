@@ -1,4 +1,4 @@
-# octopackage [![Packagist](https://img.shields.io/packagist/v/k1low/octopackage.svg)](https://packagist.org/packages/k1low/octopackage)
+# octopackage [![Packagist](https://img.shields.io/packagist/v/k1LoW/octopackage.svg)](https://packagist.org/packages/k1low/octopackage)
 
 > [octorelease](https://github.com/mizzy/octorelease) for Composer
 
