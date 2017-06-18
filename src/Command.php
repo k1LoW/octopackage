@@ -13,10 +13,6 @@ use Composer\Semver\VersionParser as Semver;
 use Composer\Semver\Comparator;
 use Composer\Package\Version\VersionParser;
 
-require_once dirname(__DIR__) . '/vendor/guzzlehttp/guzzle/src/functions.php';
-require_once dirname(__DIR__) . '/vendor/guzzlehttp/psr7/src/functions.php';
-require_once dirname(__DIR__) . '/vendor/guzzlehttp/promises/src/functions.php';
-
 class Command extends BaseCommand
 {
     protected function configure()
