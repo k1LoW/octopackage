@@ -169,9 +169,12 @@ class Command extends BaseCommand
             break;
         case 'minor':
             $versions[1]++;
+            $versions[2] = 0;
             break;
         case 'major':
             $versions[0]++;
+            $versions[1] = 0;
+            $versions[2] = 0;
             break;
         }
         return implode('.', $versions);
