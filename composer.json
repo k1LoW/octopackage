@@ -1,0 +1,26 @@
+{
+    "name": "k1low/octopackage",
+    "description": "octorelease for composer",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "k1LoW",
+            "email": "k1lowxb@gmail.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^1.1",
+        "knplabs/github-api": "^2.4",
+        "php-http/guzzle6-adapter": "^1.1",
+        "symfony/yaml": "^3.3",
+        "guzzlehttp/guzzle": "^6.2",
+        "composer/semver": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {"Lab101000\\Octopackage\\": "src/"}
+    },
+    "extra": {
+        "class": "Lab101000\\Octopackage\\Plugin"
+    }
+}
